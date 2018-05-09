@@ -13,6 +13,11 @@
 		32A1CDCE20A32BDA008FEF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A1CDCD20A32BDA008FEF5B /* Assets.xcassets */; };
 		32A1CDD120A32BDA008FEF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A1CDCF20A32BDA008FEF5B /* LaunchScreen.storyboard */; };
 		32A1CDD420A32BDA008FEF5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDD320A32BDA008FEF5B /* main.m */; };
+		32A1CDDC20A32C2F008FEF5B /* first_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDDB20A32C2F008FEF5B /* first_VC.m */; };
+		32A1CDDF20A32C4C008FEF5B /* Second_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDDE20A32C4C008FEF5B /* Second_VC.m */; };
+		32A1CDE320A347B1008FEF5B /* NavigationFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDE220A347B1008FEF5B /* NavigationFVC.m */; };
+		32A1CDE720A347FE008FEF5B /* NavigationSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDE620A347FE008FEF5B /* NavigationSVC.m */; };
+		32A1CDF620A36F24008FEF5B /* TabBarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1CDF520A36F24008FEF5B /* TabBarClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		32A1CDD020A32BDA008FEF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A1CDD220A32BDA008FEF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A1CDD320A32BDA008FEF5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A1CDDA20A32C2F008FEF5B /* first_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = first_VC.h; sourceTree = "<group>"; };
+		32A1CDDB20A32C2F008FEF5B /* first_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = first_VC.m; sourceTree = "<group>"; };
+		32A1CDDD20A32C4C008FEF5B /* Second_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Second_VC.h; sourceTree = "<group>"; };
+		32A1CDDE20A32C4C008FEF5B /* Second_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Second_VC.m; sourceTree = "<group>"; };
+		32A1CDE120A347B1008FEF5B /* NavigationFVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationFVC.h; sourceTree = "<group>"; };
+		32A1CDE220A347B1008FEF5B /* NavigationFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationFVC.m; sourceTree = "<group>"; };
+		32A1CDE520A347FE008FEF5B /* NavigationSVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationSVC.h; sourceTree = "<group>"; };
+		32A1CDE620A347FE008FEF5B /* NavigationSVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSVC.m; sourceTree = "<group>"; };
+		32A1CDF420A36F24008FEF5B /* TabBarClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarClass.h; path = ../../../../.Trash/TabBarClass.h; sourceTree = "<group>"; };
+		32A1CDF520A36F24008FEF5B /* TabBarClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarClass.m; path = ../../../../.Trash/TabBarClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,9 @@
 			children = (
 				32A1CDC420A32BD9008FEF5B /* AppDelegate.h */,
 				32A1CDC520A32BD9008FEF5B /* AppDelegate.m */,
-				32A1CDC720A32BD9008FEF5B /* ViewController.h */,
-				32A1CDC820A32BD9008FEF5B /* ViewController.m */,
+				32A1CDEB20A36021008FEF5B /* TabBarController */,
+				32A1CDE420A347CC008FEF5B /* NavigationControllers */,
+				32A1CDE020A32C52008FEF5B /* VIewControllers */,
 				32A1CDCA20A32BD9008FEF5B /* Main.storyboard */,
 				32A1CDCD20A32BDA008FEF5B /* Assets.xcassets */,
 				32A1CDCF20A32BDA008FEF5B /* LaunchScreen.storyboard */,
@@ -69,6 +85,39 @@
 				32A1CDD320A32BDA008FEF5B /* main.m */,
 			);
 			path = tabBarViewController_test;
+			sourceTree = "<group>";
+		};
+		32A1CDE020A32C52008FEF5B /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32A1CDC720A32BD9008FEF5B /* ViewController.h */,
+				32A1CDC820A32BD9008FEF5B /* ViewController.m */,
+				32A1CDDA20A32C2F008FEF5B /* first_VC.h */,
+				32A1CDDB20A32C2F008FEF5B /* first_VC.m */,
+				32A1CDDD20A32C4C008FEF5B /* Second_VC.h */,
+				32A1CDDE20A32C4C008FEF5B /* Second_VC.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		32A1CDE420A347CC008FEF5B /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32A1CDE120A347B1008FEF5B /* NavigationFVC.h */,
+				32A1CDE220A347B1008FEF5B /* NavigationFVC.m */,
+				32A1CDE520A347FE008FEF5B /* NavigationSVC.h */,
+				32A1CDE620A347FE008FEF5B /* NavigationSVC.m */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		32A1CDEB20A36021008FEF5B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				32A1CDF420A36F24008FEF5B /* TabBarClass.h */,
+				32A1CDF520A36F24008FEF5B /* TabBarClass.m */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A1CDDF20A32C4C008FEF5B /* Second_VC.m in Sources */,
+				32A1CDF620A36F24008FEF5B /* TabBarClass.m in Sources */,
+				32A1CDE320A347B1008FEF5B /* NavigationFVC.m in Sources */,
+				32A1CDE720A347FE008FEF5B /* NavigationSVC.m in Sources */,
 				32A1CDC920A32BD9008FEF5B /* ViewController.m in Sources */,
+				32A1CDDC20A32C2F008FEF5B /* first_VC.m in Sources */,
 				32A1CDD420A32BDA008FEF5B /* main.m in Sources */,
 				32A1CDC620A32BD9008FEF5B /* AppDelegate.m in Sources */,
 			);
